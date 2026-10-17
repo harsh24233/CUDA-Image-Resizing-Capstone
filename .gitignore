@@ -1,0 +1,19 @@
+bin/
+results/*
+!results/.gitkeep
+logs/*
+!logs/.gitkeep
+submission_artifacts/*
+!submission_artifacts/.gitkeep
+*.o
+*.log
+.DS_Store
+
+# Generated large stress-test input (100 MB) and binary outputs
+/data/large_test.pgm
+/bin/
+/results/*.pgm
+/results/benchmark.csv
+/logs/*.log
+/submission_artifacts/*.zip
+/submission_artifacts/SHA256SUMS.txt
