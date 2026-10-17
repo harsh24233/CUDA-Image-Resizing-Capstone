@@ -215,6 +215,12 @@ The raw benchmark results are logged in `results/benchmark.csv`.
 
 ```text
 CUDA-Image-Resizing-Capstone/
+├── proof_of_execution.zip          # Packaged authentic execution proof (root)
+├── LICENSE                         # Open-source MIT License
+├── Makefile                        # Build automation with nvcc detection
+├── run.sh                          # Single-run execution shell script
+├── README.md                       # Comprehensive master documentation
+├── .gitignore                      # Clean repository rules
 ├── src/
 │   └── image_resize.cu             # Main CUDA/NPP resizing application
 ├── include/
@@ -229,18 +235,13 @@ CUDA-Image-Resizing-Capstone/
 │   ├── build.log                   # Compilation log
 │   └── scale_*.log                 # Execution logs for each scale factor
 ├── submission_artifacts/
-│   ├── proof_of_execution.zip      # Packaged authentic execution proof
-│   └── SHA256SUMS.txt              # Checksum verification
+│   └── proof_of_execution.zip      # Packaged authentic execution proof
 ├── scripts/
 │   ├── run_validation_suite.sh     # Multi-scale execution & logging suite
 │   ├── generate_large_pgm.py       # 100-Megapixel synthetic stress generator
 │   └── package_proof.sh            # Packages verified artifacts into ZIP
-├── tests/
-│   └── validate_pgm.py             # Standalone PGM header & payload validator
-├── Makefile                        # Build automation with nvcc detection
-├── run.sh                          # Single-run execution shell script
-├── .gitignore                      # Clean repository rules
-└── README.md                       # Comprehensive documentation
+└── tests/
+    └── validate_pgm.py             # Standalone PGM header & payload validator
 ```
 
 ---
