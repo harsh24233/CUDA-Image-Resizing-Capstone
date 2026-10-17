@@ -22,5 +22,4 @@ if command -v zip >/dev/null 2>&1; then
 else
   python3 -c "import sys, zipfile; from pathlib import Path; out = Path('submission_artifacts/proof_of_execution.zip'); [zf.write(f, f) for zf in [zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED)] for f in sys.argv[1:] if Path(f).exists()]" "${files[@]}"
 fi
-sha256sum submission_artifacts/proof_of_execution.zip > submission_artifacts/SHA256SUMS.txt
 printf 'Created %s\n' "$PWD/submission_artifacts/proof_of_execution.zip"
