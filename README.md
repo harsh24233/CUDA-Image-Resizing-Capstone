@@ -1,4 +1,4 @@
-# GPU Image Processing Capstone — CUDA NPP Image Resizing
+# GPU Image Processing Capstone - CUDA NPP Image Resizing
 
 ## Overview
 
@@ -22,8 +22,8 @@ The project demonstrates practical mastery of:
 ## Video Demonstration
 
 Watch the project demonstration video here:
-
-*(Paste your recorded video link here, e.g. Google Drive or YouTube Unlisted)*
+Drive link
+*https://drive.google.com/file/d/1F3ZHFDb8JXugxyjbaXLHRn-Wd5HB-hy2/view?usp=drivesdk*
 
 ---
 
