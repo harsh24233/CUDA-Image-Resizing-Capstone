@@ -1,0 +1,1 @@
+/usr/bin/nvcc -O2 -std=c++14 -Iinclude  src/image_resize.cu -o bin/image_resize  -lnppig -lnppc -lcudart

@@ -1,0 +1,11 @@
+=== Running scale=1.0 ===
+GPU: NVIDIA GeForce RTX 4050 Laptop GPU
+Compute capability: 8.9
+Input: data/sample.pgm
+Output: results/sample_scale_100.pgm
+Scale: 1
+Input dimensions: 320 x 240
+Output dimensions: 320 x 240
+GPU resize time (ms): 5.82368
+Status: SUCCESS
+Saved output: results/sample_scale_100.pgm

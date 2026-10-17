@@ -1,0 +1,6 @@
+input,scale,input_width,input_height,output_width,output_height,gpu_time_ms,status
+data/sample.pgm,0.5,320,240,160,120,9.06768,SUCCESS
+data/sample.pgm,0.75,320,240,240,180,14.4851,SUCCESS
+data/sample.pgm,1.0,320,240,320,240,5.82368,SUCCESS
+data/sample.pgm,1.5,320,240,480,360,5.7047,SUCCESS
+data/sample.pgm,2.0,320,240,640,480,6.2927,SUCCESS
