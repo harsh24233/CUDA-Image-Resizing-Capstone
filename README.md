@@ -23,7 +23,7 @@ The project demonstrates practical mastery of:
 
 Watch the project demonstration video here:
 Drive link
-*https://drive.google.com/file/d/1F3ZHFDb8JXugxyjbaXLHRn-Wd5HB-hy2/view?usp=drivesdk*
+*https://drive.google.com/file/d/1HGPtJlVtXdW8GI5HdotqAqlkRVBEvSev/view?usp=sharing*
 
 ---
 
